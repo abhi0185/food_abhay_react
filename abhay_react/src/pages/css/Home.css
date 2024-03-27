@@ -1,0 +1,103 @@
+
+body {
+  width: auto; 
+  background-image: url('https://th.bing.com/th/id/OIP.wku1KqtWzN5z_CoDSNWp6AHaEo?rs=1&pid=ImgDetMain');
+  /* background-repeat: no-repeat;  */
+  background-size: cover;    /* control the size of a background image in a container */ 
+  /* color: white;  */
+  background-color: wheat;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.menu {
+    display: grid;       /* two-dimensional grid-based layout system */
+    grid-template-columns: 1fr 1fr;    /* This dividing UI in two columns equally here one for image and text*/
+    /* position: relative; */
+    /* width: 100%;       /* making an element take up the full width of its parent container. */
+    /* left: 0%; */
+    text-align: center;
+    padding: 20px;  /*each side (top, right, bottom, and left) of the element will have a space b/w of 20 px*/
+    opacity: 0.9;    /* element will be 90% opaque, allowing some of the background to show through. */
+    background-color: rgba(100, 98, 98, 0.288);
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px; /* box-shadow will create a shadow with a color if RGB */
+}
+
+
+.menuIntro>img {
+    width: 75%;    /* image size will fall 75% in their container */
+    border-radius: 10%;   /* control the rounding of the corners of an element. */
+    height: auto;       /* adjust its height automatically based on the content it contains. */ 
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    filter: blur(0.5px);  /* graphical effects like blur, brightness, contrast, etc. to an element. */
+}
+
+.menuIntro {
+    text-align: center;
+    color: rgb(39, 39, 39);
+    border-radius: 10px;
+}
+
+/* Dish class we used for text (dish name) */
+.dish {
+    float: left;    /* text start from left in container */
+    color: blue;    /* text color */
+    font-weight: bold;
+    /* position: relative; */
+    /* z-index: 1; */  /* Elements with a higher z-index value are stacked on top of elements with lower z-index values. */
+    background-color: transparent;
+    padding-right: 15px;
+}
+
+.Price {
+    float: right;
+    color: blue;
+    font-weight: bold;
+    position: relative;
+    background-color: transparent;
+    padding-right: 15px;
+}
+
+
+
+.order {
+    float: right;
+    color: red;
+    font-weight: bold;
+    position: relative;
+    background-color: transparent;
+    padding-left: 20px;
+}
+
+.Description {
+    clear: both;  /* should not be allowed to wrap around any floated elements on  the left/right side. */
+    display: block; /* start on a new line and stretch the full width of their container */
+    color: white;
+    font-style: italic;
+    font-size: 14px;
+    padding-top: 10px; /* padding (space) on the top side of an element. */
+    position: relative;
+    top: -8px;   /* It means the element will be shifted upward by 8 pixels relative to its normal position */
+}
+
+
+
+.center-button-container {
+    display: flex;
+    justify-content: center; /* Horizontal center */
+    align-items: center; /* Vertical center */
+    margin-top: 20px; /* Adjust as needed */
+}
+
+center-button-container button {
+    /* Existing button styles */
+    width: 200px; /* Adjust width as needed */
+    height: 50px; /* Adjust height as needed */
+    font-size: 1.2rem; /* Adjust font size as needed */
+}

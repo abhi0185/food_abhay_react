@@ -1,0 +1,19 @@
+.order-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.order-table th,
+.order-table td {
+  padding: 8px;
+  border: 1px solid #ddd; /* Border color */
+}
+
+.order-table th {
+  background-color: #f2f2f2; /* Header background color */
+}
+
+.order-table tbody tr:nth-child(even) {
+  background-color: #f2f2f2; /* Even row background color */
+}
+

@@ -1,0 +1,17 @@
+
+.divStyle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: contain; /* or 'cover' depending on your preference */
+  /* background-repeat: no-repeat; */
+  height: 400px; /* Adjust the height as needed */
+  width: 100%; /* Ensure the container spans the entire width */
+}
+
+.spanStyle {
+  padding: 20px;
+  background: #efefef;
+  color: #000000;
+}
+

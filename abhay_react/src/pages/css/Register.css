@@ -1,0 +1,9 @@
+body {
+  width: auto;
+  
+  /* background-repeat: no-repeat;  */
+  background-size: cover;    /* control the size of a background image in a container */
+  /* color: white;  */
+  background-color: wheat;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
